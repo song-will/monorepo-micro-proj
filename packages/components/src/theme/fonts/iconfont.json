@@ -1,0 +1,37 @@
+{
+  "id": "2133038",
+  "name": "zmop-ui",
+  "font_family": "zmop-icons",
+  "css_prefix_text": "zmop-icon-",
+  "description": "运营UI组件库",
+  "glyphs": [
+    {
+      "icon_id": "10375664",
+      "name": "500",
+      "font_class": "icon-test1",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "10375662",
+      "name": "403",
+      "font_class": "icon-test",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "14223734",
+      "name": "404",
+      "font_class": "xinjianwenbenwendang",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "8229055",
+      "name": "drag",
+      "font_class": "drag",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    }
+  ]
+}

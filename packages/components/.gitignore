@@ -1,0 +1,29 @@
+*.log*
+.cache
+.DS_Store
+.idea
+.vscode
+src/test/unit/coverage/
+src/test/e2e/reports/
+/storybook-static
+
+# npm
+node_modules
+
+# dist file
+es
+lib
+dist
+docs/dist
+changelog.generated.md
+test/coverage
+vetur
+
+# other
+.history
+lib
+
+# test
+__image_snapshots__
+__snapshots__
+.xt-testing.config.js

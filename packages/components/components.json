@@ -1,0 +1,13 @@
+{
+  "base-input": "./src/packages/base-input/index.js",
+  "back-end-paging-table": "./src/packages/back-end-paging-table/index.js",
+  "front-end-paging-table": "./src/packages/front-end-paging-table/index.js",
+  "search-table": "./src/packages/search-table/index.js",
+  "api-data-table": "./src/packages/api-data-table/index.js",
+  "dynamic-form": "./src/packages/dynamic-form/index.js",
+  "grid-table": "./src/packages/grid-table/index.js",
+  "detail-extend-form": "./src/packages/detail-extend-form/index.js",
+  "x-form": "./src/packages/x-form/index.js",
+  "extend-detail": "./src/packages/extend-detail/index.js",
+  "extend-form": "./src/packages/extend-form/index.js"
+}

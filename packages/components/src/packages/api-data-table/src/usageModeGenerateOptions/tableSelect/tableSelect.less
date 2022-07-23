@@ -1,0 +1,21 @@
+
+.xt-api-table /deep/ .api-table-radio-dot {
+  display: inline-block;
+  width: 15px;
+  .radio-checked {
+    display:none;
+  }
+  * {
+    pointer-events: none;
+  }
+}
+.xt-api-table /deep/ .ivu-table-row.ivu-table-row-highlight {
+  .api-table-radio-dot {
+    .radio-checked {
+      display:inline-block;
+    }
+    .radio-not-checked {
+      display: none;
+    }
+  }
+}

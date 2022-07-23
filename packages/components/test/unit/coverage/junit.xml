@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="15" failures="0" errors="0" time="5.514">
+  <testsuite name="ApiDataTable.vue" errors="0" failures="0" skipped="0" timestamp="2022-03-10T08:26:12" time="2.771" tests="2">
+    <testcase classname="ApiDataTable.vue 基础表格" name="ApiDataTable.vue 基础表格" time="0.292">
+    </testcase>
+    <testcase classname="ApiDataTable.vue 单选表格" name="ApiDataTable.vue 单选表格" time="0.22">
+    </testcase>
+  </testsuite>
+  <testsuite name="Dynamic.vue" errors="0" failures="0" skipped="0" timestamp="2022-03-10T08:26:12" time="4.149" tests="13">
+    <testcase classname="Dynamic.vue 测试基础用法及默认情况" name="Dynamic.vue 测试基础用法及默认情况" time="0.13">
+    </testcase>
+    <testcase classname="Dynamic.vue select-本地options" name="Dynamic.vue select-本地options" time="0.157">
+    </testcase>
+    <testcase classname="Dynamic.vue select-远程搜索options" name="Dynamic.vue select-远程搜索options" time="0.024">
+    </testcase>
+    <testcase classname="Dynamic.vue select-一次性获取options" name="Dynamic.vue select-一次性获取options" time="0.066">
+    </testcase>
+    <testcase classname="Dynamic.vue select-自定义模板" name="Dynamic.vue select-自定义模板" time="0.07">
+    </testcase>
+    <testcase classname="Dynamic.vue radio-基础用法" name="Dynamic.vue radio-基础用法" time="0.022">
+    </testcase>
+    <testcase classname="Dynamic.vue radioGroup-基础用法" name="Dynamic.vue radioGroup-基础用法" time="0.027">
+    </testcase>
+    <testcase classname="Dynamic.vue radioGroup-自定义模板" name="Dynamic.vue radioGroup-自定义模板" time="0.023">
+    </testcase>
+    <testcase classname="Dynamic.vue checkbox-基本用法" name="Dynamic.vue checkbox-基本用法" time="0.019">
+    </testcase>
+    <testcase classname="Dynamic.vue checkboxGroup-基础用法" name="Dynamic.vue checkboxGroup-基础用法" time="0.028">
+    </testcase>
+    <testcase classname="Dynamic.vue checkboxGroup-自定义模板" name="Dynamic.vue checkboxGroup-自定义模板" time="0.022">
+    </testcase>
+    <testcase classname="Dynamic.vue DatePicker-基础用法" name="Dynamic.vue DatePicker-基础用法" time="0.078">
+    </testcase>
+    <testcase classname="Dynamic.vue DnForm-基础用法" name="Dynamic.vue DnForm-基础用法" time="0.128">
+    </testcase>
+  </testsuite>
+</testsuites>

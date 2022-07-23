@@ -1,0 +1,47 @@
+.grid-table-group {
+  border: 1px solid #e8eaec;
+  overflow: auto;
+}
+.grid-table {
+  display: inline-grid;
+  width: 100%;
+  grid-template-rows: repeat(auto-fill, 35px);
+  line-height: 35px;
+}
+.grid-table-column {
+  background-color: #f8f8f9;
+  padding: 0 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+.grid-table-cell {
+  padding-left: 12px;
+  padding-right: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  word-break: break-all;
+  box-sizing: border-box;
+  border-top: 1px solid #e8eaec;
+  background-color: #ffffff;
+}
+.grid-table-row-hl {
+  background-color: #ebf7ff;
+}
+.null-data-tip {
+  text-align: center;
+  height: 48px;
+  line-height: 48px;
+  border-top: 1px solid #e8eaec;
+}
+
+$align: left, center, right;
+@each $a in $align{
+  .grid-align-#{$a} {
+    text-align: $a;
+  }
+}

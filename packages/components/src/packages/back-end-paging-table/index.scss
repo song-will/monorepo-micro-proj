@@ -1,0 +1,48 @@
+.table-wrapper {
+    margin: 10px 0;
+}
+
+.ve__table {
+    margin: 7px 0;
+
+    .ve-table-cell,
+    .ve-table-header {
+        color: #515a6e !important;
+        font-size: 12px !important;
+        padding: 4px 8px !important;
+        white-space: normal !important;
+        word-break: break-all;
+    }
+
+    .cell-left-fixed {
+        border-right: 1px solid #eee;
+        box-shadow: 2px 0 6px -2px #0003;
+    }
+
+    .container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .table {
+        flex-grow: 0;
+    }
+
+    .text-empty {
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #eee;
+        border-top: none;
+
+        color: #515a6e;
+        font-size: 12px;
+        min-height: 48px;
+    }
+
+    .ve-table-header-tr {
+        line-height: initial;
+    }
+}
